@@ -10,4 +10,8 @@ Outputtest*.c - These small programs outputted the unrolled code to be pasted in
 
 test*.txt - the files that the above outputted to.
 
+
+To run the tests, first use 'make' to compile all programs, then use ./UnrollTestScript.sh to run the tests.
+
+
 /data directories, where the results from the tests were stored.
