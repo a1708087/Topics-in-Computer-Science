@@ -1,0 +1,13 @@
+Plaintext Control - The message used to test the chacha code.
+
+UnrollTestScript.sh - Script used to run tests and collect the data.
+
+chacha*.c - 1 to 6 are unrolling encrpyt funtion, 1B - 4B are unrolling the quarter rounds
+
+chachaTotalUnroll.c - The completely unrolled chacha code without any control flow
+
+Outputtest*.c - These small programs outputted the unrolled code to be pasted into chachaTotalUnroll.c
+
+test*.txt - the files that the above outputted to.
+
+/data directories, where the results from the tests were stored.
